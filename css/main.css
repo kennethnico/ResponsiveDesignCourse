@@ -91,28 +91,39 @@ header img{
     margin-left: 10px;
     background-image: url("../assets/icons/down-arrow.svg");
 }
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
 .main--section-one{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
     text-align: center;
 
 }
 .main--section-one img{
-    margin-top: 60px;
     width: 195px;
     height: 195px;
 }
-.main--section-one h2{
+.main--section-one--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*
+.main--section-one--title h2{
     width: 288px;
     height: 52px;
-    margin-top: 50px;
     font-size: 2.4rem;
     line-height: 2.6rem;
     color: var(--warm-black);
 }
-.main--section-one p{
+.main--section-one--title p{
     width: 288px;
     height: 54px;
     color: #757575;
@@ -120,5 +131,5 @@ header img{
     font-weight: 500;
     font-size: 1.4rem;
     line-height: 1.8rem;
-}
+}*/
 
